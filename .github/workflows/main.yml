@@ -12,5 +12,6 @@ jobs:
         with:
           java-version: "18"
           cache: maven
+          distribution: "temurin"
       - uses: browser-actions/setup-edge@latest
       - run: mvn clean test
