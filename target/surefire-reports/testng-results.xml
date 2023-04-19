@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-19T02:17:36 EET" name="Surefire suite" finished-at="2023-04-19T02:17:59 EET" duration-ms="23037">
+    <groups>
+    </groups>
+    <test started-at="2023-04-19T02:17:36 EET" name="Surefire test" finished-at="2023-04-19T02:17:59 EET" duration-ms="23037">
+      <class name="com.qacart.todo.TestCases.TodoTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qacart.todo.TestCases.TodoTest@30404dba]" started-at="2023-04-19T02:17:36 EET" name="setUp" finished-at="2023-04-19T02:17:44 EET" duration-ms="8449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qacart.todo.TestCases.TodoTest@30404dba]" started-at="2023-04-19T02:17:36 EET" name="setUp" finished-at="2023-04-19T02:17:44 EET" duration-ms="8371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldBeAbleToAddNewTodo()[pri:0, instance:com.qacart.todo.TestCases.TodoTest@30404dba]" started-at="2023-04-19T02:17:44 EET" name="shouldBeAbleToAddNewTodo" description="Should Be Able add a new Todo Correctly" finished-at="2023-04-19T02:17:57 EET" duration-ms="12351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToAddNewTodo -->
+        <test-method signature="shouldBeAbleToDeleteTodo()[pri:0, instance:com.qacart.todo.TestCases.TodoTest@30404dba]" started-at="2023-04-19T02:17:44 EET" name="shouldBeAbleToDeleteTodo" description="Should be able to delete Todo Correctly" finished-at="2023-04-19T02:17:57 EET" duration-ms="12222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToDeleteTodo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qacart.todo.TestCases.TodoTest@30404dba]" started-at="2023-04-19T02:17:57 EET" name="tearDown" finished-at="2023-04-19T02:17:59 EET" duration-ms="2059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qacart.todo.TestCases.TodoTest@30404dba]" started-at="2023-04-19T02:17:57 EET" name="tearDown" finished-at="2023-04-19T02:17:58 EET" duration-ms="1265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qacart.todo.TestCases.TodoTest -->
+      <class name="com.qacart.todo.TestCases.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qacart.todo.TestCases.LoginTest@340b7ef6]" started-at="2023-04-19T02:17:36 EET" name="setUp" finished-at="2023-04-19T02:17:45 EET" duration-ms="8685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldBeAbleToLoginWithEmailAndPassword()[pri:0, instance:com.qacart.todo.TestCases.LoginTest@340b7ef6]" started-at="2023-04-19T02:17:45 EET" name="shouldBeAbleToLoginWithEmailAndPassword" description="Test the login Functionality" finished-at="2023-04-19T02:17:49 EET" duration-ms="4016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToLoginWithEmailAndPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qacart.todo.TestCases.LoginTest@340b7ef6]" started-at="2023-04-19T02:17:49 EET" name="tearDown" finished-at="2023-04-19T02:17:53 EET" duration-ms="4723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qacart.todo.TestCases.LoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
